@@ -1,0 +1,39 @@
+$base-color: #f0b531;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Archivo Black", sans-serif;
+	}
+}
+
+* {
+	scrollbar-width: auto;
+	scrollbar-color: #000000 #ffffff;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #000000;
+	border-radius: 6px;
+}
+body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

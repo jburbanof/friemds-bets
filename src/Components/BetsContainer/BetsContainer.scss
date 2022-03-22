@@ -1,0 +1,54 @@
+$base-color: #f0b531;
+
+.nav {
+	width: 100%;
+	background-color: $base-color;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	padding: 0 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.betsContainer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 0 40px;
+	height: calc(100vh - 50px);
+	overflow: auto;
+	.betCard {
+		width: 100%;
+		margin: 20px 0;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+		flex-direction: row;
+		.playersList {
+			width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+			ul {
+                width: 100%;
+				margin-left: 20px;
+				max-height: 110px;
+				overflow: auto;
+			}
+
+			li {
+				list-style: none;
+			}
+		}
+        .actions {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column
+        }
+	}
+}

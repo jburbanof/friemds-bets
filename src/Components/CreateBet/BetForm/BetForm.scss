@@ -1,0 +1,65 @@
+.formContainer {
+	width: 50%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	h2 {
+		margin-bottom: 20px;
+	}
+	.buttons {
+		width: 70%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+		margin-top: 20px;
+	}
+	.textarea {
+		resize: none;
+		border-radius: 5px;
+		font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+		padding: 5px;
+	}
+	.personsList {
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 118px;
+		overflow: auto;
+		.personTag {
+			background-color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			border-radius: 20px;
+			padding: 2px 10px;
+			margin: 5px 10px;
+
+			p {
+				font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+				font-size: 15px;
+			}
+		}
+	}
+	.conditions {
+		height: 113px;
+		overflow: auto;
+		padding-right: 10px;
+	}
+    .react-datepicker-wrapper {
+        width: auto
+    }
+	.react-datepicker__input-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+        margin-top: 10px;
+	}
+}
